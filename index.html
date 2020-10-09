@@ -2,34 +2,503 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style  type="text/css">
+	body{
+		font-family:  "Montserrat";
+	}
+	.a{
+		padding: 0em 1.4em;
+		text-decoration: none; color: black;
+		transition: 0.3s;
+	}
+	.a:hover{
+		text-decoration: none; color: #ffe600;
+	}
+	.head-logo{
+		padding-top: 35px;
+		font-weight: 600;
+	}
+	.top-h1{
+		font-weight: 800;	
+		font-size: 3em;
+	}
+	.top-lor{
+		font-weight: 800;
+		font-size: 0.7em;
+		padding-top: 40px;
+	}
+	header{
+		padding-bottom: 222px;
+	}
+	.block-yellow{
+		background-color: #ffe600;
+		width: 180px;
+		height: 50px;
+		text-align: center;
+
+
+	}
+	.bl-y1{
+		font-size: .9em;
+		font-weight: 800;
+		line-height: 50px;
+
+	}
+	.block{
+		padding-top: 48px;
+	}
+	.text-top2{
+		height: 500px;
+		background-color: grey;
+	}
+	.work{
+		font-weight: 800;
+		font-size: 3em;
+	}
+	.a1{
+		text-decoration: none; color: black;
+	}
+	.a1:hover{
+		text-decoration: none; color: black;
+	}
+	.content-li{
+		width: 60px;
+	    height: 30px;
+	    text-align: center;
+	    line-height: 30px;
+	    font-size: 0.7em;
+	}
+	.content-li:hover{
+		background-color:  #ffe600;
+	}
+	.li{
+		padding-right:25px;
+		font-weight: 600;
+	}
+	.grey-bl{
+		background-color: grey;
+		height: 300px;
+		margin-top: 28px;
+	}
+	.grey-bl1{
+		background-color: grey;
+		height: 500px;
+		margin-top: 28px;
+	}
+	.block-yellow2{
+		background-color: #ffe600;
+		width: 180px;
+		height: 50px;
+		text-align: center;
+		margin: auto;
+	}
+	.block2{
+		padding-top: 65px;
+	}
+	.wrapper{
+		padding-top: 105px;
+	}
+	.work-menu{
+		padding: 30px 0px;
+	}
+	.wrapper-2{
+		padding-top: 195px;
+	}
+	.mid-t{
+		width: 500px;
+		font-weight: 800;
+		font-size: .7em;
+		padding: 30px 0px;
+	}
+	.work2{
+		font-weight: 800;
+		font-size: 3em;
+		padding-top: 225px;
+	}
+	.low-g{
+		background-image: url(9ebc1558492f8f4744c5b033309ca73d.jpg);
+		background-size: 100% 100%;
+		height: 350px;
+	}
+	.low-y{
+		background-color: #ffe600;
+		font-size: 0.8em;
+		padding: 13px;
+	}
+	.low-avt{
+		color: black;
+		font-weight: 800;
+	}
+	.low-web{
+		color: white;
+	}
+	.luke{
+		font-size: 1.3em;
+		font-weight: 800;
+	}
+	.luke2{
+		width: 250px;
+		font-size: .9em;
+		padding-top: 15px;
+		padding-bottom: 70px;
+	}
+	.luke-menu{
+		padding: 15px;
+		font-weight: 800;
+	}
+	.bl-y{
+		height: 280px;
+		background-color: #ffe600;
+	}
+	.read{
+		font-weight: 800;
+		line-height: 280px;
+	}
+	.bl-g{
+		background-color: grey;
+		height: 280px;
+	}
+	.text-low{
+		padding: 20px;
+		font-weight: 800;
+	}
+	.super{
+		font-size:.8em;
+	}
+	.lorem{
+		font-size: .6em;
+		padding: 23px 0px;
+	}
+	.may{
+		font-weight: 600;
+		font-size: .7em;
+	}
+	.user{
+		background-color: #fdfdfd;
+	}
+	.user-settings{
+		font-weight: 600;
+		font-size: .8em;
+	}
+	.aas{
+		font-weight: 800;
+		padding: 34px 0px;
+	}
+	.user-email{
+		background-color: #fdfdfd;
+
+		padding: 34px 0px;
+	}
+	.block-low{
+		height: 470px;
+		background-color: grey;
+	}
+	.Messege{
+		background-color: #fdfdfd;
+	}
+	.adress{
+		font-weight: 800;
+		font-size: .6em;
+	}
+	.img{
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.fas{
+		font-size: 1.4em;
+		padding: 40px 0px;
+	}
+	.ics{
+		padding: 0px 10px;
+	}
+	.footer{
+		background-color: #1e1e1e;
+	}
+	.fot-cont{
+		color: white;
+		padding: 50px 0px;
+		font-weight: 600;
+		font-size: .8em;
+	}
+	.asas{
+		padding: 50px 10px;
+	}
+	.container-fluid{
+		background-color: #1e1e1e;
+	}
+
 
 	</style>
 	<title>mint</title>
 </head>
 <body>
-
 	<header>
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-between">
 				<div class="col-2">
-					<div>
+					<div class="head-logo">
 						<img src="logo.png">
 					</div>
 				</div>
 				<div class="col-5">
-					<div>
-						<ul class="nav">
-							<li>WORK</li>
-							<li>ABOUT</li>
-							<li>BLOG</li>
-							<li>CONTACT</li>
+					<div class="head-logo">
+						<ul class="nav justify-content-end">
+							<li><a href="" class="a">WORK</a></li>
+							<li><a href="" class="a">ABOUT</a></li>
+							<li><a href="" class="a"> BLOG</a></li>
+							<li><a href="" class="a">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="container">
+	 <div class="row align-items-center">
+			<div class="col-6">
+				<div class="text-top">
+					<h1 class="top-h1">Hello!!!<br> We Are Creative Digital Agency</h1>
+					<div class="top-lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt</div>
+				</div>
+				<div class="block">
+				<div  class="block-yellow">				
+					<span class="bl-y1">SEND MESSEGE</span>
+				</div>
+			    </div>
+			</div>
+			<div class="col-6">
+				<div class="text-top2"></div>
+			</div>
+		</div>
+	<div class="wrapper">
+	<div class="row">
+			<div class="col-6">
+				<span class="work">WORK SHOWCASE</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-7">
+				<div class="work-menu">
+						<ul class="nav">
+							<li class="li"><div class="content-li">All</div></li>
+							<li class="li"><div class="content-li">Branding</div></li>
+							<li class="li"><div class="content-li">Illustriton</div></li>
+							<li class="li"><div class="content-li">web</div></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<div class="row">
+				<div class="col-12">
+					<div class="grey-bl"></div>
+				</div>
+				<div class="col-12">
+					<div class="grey-bl1">
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="row">
+				<div class="col-12">
+					<div class="grey-bl1"></div>
+				</div>
+				<div class="col-12">
+					<div class="grey-bl"></div>
+				</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="row">
+				<div class="col-12">
+					<div class="grey-bl"></div>
+				</div>
+				<div class="col-12">
+					<div class="grey-bl1"></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+        <div class="block2">
+				<div  class="block-yellow2">				
+					<span class="bl-y1">SHOW ME MORE</span>
+				</div>
+		</div>
+  <div class="wrapper-2">
+	<div class="row">
+		<div class="col-2">
+			<div>
+				<img src="partner 1.png">
+			</div>
+		</div>
+		<div class="col-2">
+			<div>
+				<img src="partner 2.png">
+			</div>
+		</div>
+		<div class="col-2">
+			<div>
+				<img src="partner 3.png">
+			</div>
+		</div>
+		<div class="col-2">
+			<div>
+				<img src="partner 4.png">
+			</div>
+		</div>
+		<div class="col-2">
+			<div>
+				<img src="partner 5.png">
+			</div>
+		</div>
+		<div class="col-2">
+			<div>
+				<img src="partner 6.png">
+			</div>
+		</div>
+	</div>	
+  </div>
+  <div class="medium-cont">
+  	<div class="work2">ABOUT US.</div>
+  	   <div class="mid-t">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	    tempor incididunt ut labore et dolore magna aliqua.</div>
+  	   </div>
 
+  	<div class="row align-items-center">
+  		<div class="col-4">			
+  			<div class="low-g">				
+  			</div>	
+  			<div class="low-y">
+  					<div class="low-avt">Luke Skywalker</div>
+					<div class="low-web">Web Disign</div>
+  			</div>
+  		</div>
+  		<div class="col-4">			
+  			<div class="low-g">				
+  			</div>	
+  			<div class="low-y">
+  					<div class="low-avt">Luke Skywalker</div>
+					<div class="low-web">Web Disign</div>
+  			</div>
+  		    </div>
+  		<div class="col-4">
+  			<div class="luke-menu">
+  				<h3 class="luke">Litte About us</h3>
+  				<p class="luke2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et</p>
+  				<p>read more</p>
+  			</div>
+  		</div>
+
+  </div>
+  <div class="wrapper-3">
+  	<h1 class="work2">OUR BLOG.</h1>
+  	<div class="mid-t">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	    tempor incididunt ut labore et dolore magna aliqua.</div>
+  	   
+  	<div class="row">
+  		<div class="col-4">
+  			<div class="bl-y"><h1 class="text-center read">READ MORE</h1></div>
+  			<div class="text-low">
+  			<div class="super">SUPER BLOG ARTICLE</div>
+  			<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut</div>
+  			<div class="may">20 may 2020</div>
+  		   </div>
+  		</div>
+  		<div class="col-4">
+  			<div class="bl-g"></div>
+  			<div class="text-low">
+  			<div class="super">SUPER BLOG ARTICLE</div>
+  			<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut</div>
+  			<div class="may">20 may 2020</div>
+  		   </div>
+  		</div>
+  		<div class="col-4">
+  			<div class="bl-g"></div>
+  			<div class="text-low">
+  			<div class="super">SUPER BLOG ARTICLE</div>
+  			<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  			tempor incididunt ut</div>
+  			<div class="may">20 may 2020</div>
+  		   </div>
+  		</div>
+  	</div>
+  	<div class="wrapper-4">
+  		<div class="work2">CONTACTS.</div>
+  	   <div class="mid-t">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	    tempor incididunt ut labore et dolore magna aliqua.</div>
+  	   </div>
+  	  <div class="row justify-content-between">
+  	  	<div class="col-4">
+  	  		<div class="user-settings">
+  	  			<h3 class="aas">Send Us Messege</h3>
+  	  			<div class="user">Name</div>
+  	  			<div class="user-email">Email</div>
+  	  			<div class="Messege">Messege</div>
+  	  		</div>
+  	  	</div>
+  	  	<div class="col-6">
+  	  		<div class="block-low"></div>
+  	  	</div>
+  	  </div>
+  	</div>
+  	<div class="wrapper-5 text-center">
+  		<div class="row justify-content-center">
+  			<div class="col-2">
+  				<div>
+  					<img src="Vector Smart Object.png" class="img">
+  					<div class="adress">1211 Awesome Avenue</div>
+  					<div  class="adress">NY USD</div>
+  				</div>
+  			</div>
+  			<div class="col-2">
+  				<div>
+  					<img src="Vector Smart Object-1.png"  class="img">
+  					<div  class="adress">+1 3453 35356565</div>
+  					<div  class="adress">+1 3453 35356565</div>
+  				</div>
+  			</div>
+  			<div class="col-2">
+  				<div>
+  					<img src="Vector Smart Object-2.png"  class="img">
+  					<div  class="adress">minit@mail.ru</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="icons">
+  			<div class="row justify-content-center">
+  				<div class="col-3"><i class="fa fa-facebook fas" aria-hidden="true"></i>
+  				<i class="fa fa-twitter ics fas" aria-hidden="true"></i>
+  				<i class="fa fa-futbol-o fas" aria-hidden="true"></i></div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</div>	
+<div class="container-fluid">
+	<div class="footer">
+		<div class="row justify-content-between">
+			<div class="col-3">
+				<div class="fot-cont asas">
+					 @2020 - Minit 
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="fot-cont justify-content-end">
+					BACK TO TOP <i class="fa fa-chevron-up" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		    
 </body>
 </html>
